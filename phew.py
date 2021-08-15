@@ -260,5 +260,7 @@ def phew_masks(network, prune_perc, verbose = True, kernel_conserved = False):
     Utils.ratio(network, weight_masks)
     return weight_masks, bias_masks
 
-
+network = input("network")
+prune_perc = input("prune_perc")
+phew_masks(network, prune_perc, verbose = True, kernel_conserved = False)
 print("Done")
