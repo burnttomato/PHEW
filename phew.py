@@ -259,3 +259,6 @@ def phew_masks(network, prune_perc, verbose = True, kernel_conserved = False):
                   + f'\tTarget Weights: {num_weights}', end="\r", flush=True)
     Utils.ratio(network, weight_masks)
     return weight_masks, bias_masks
+
+
+print("Done")
